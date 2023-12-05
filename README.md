@@ -1,6 +1,6 @@
 # CSS/HTML Landing Page
 
-Essa página foi feita para exercitar estudos de HTML e CSS. Créditos do layout da página para <a href="https://dribbble.com/shots/4238737-Jack-Smith-Coffee-Shop-Landing-Page/attachments/968740?mode=media" target="_blank" >Nika no Dribbble</a>.
+Essa página foi feita para exercitar estudos de HTML e CSS. Créditos do layout da página para <a href="https://dribbble.com/nika_s" target="_blank" >Nika no Dribbble</a>.
 
 <img src="assets/preview.png">
 <p align="center">Preview da página</p>
