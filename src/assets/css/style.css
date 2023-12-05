@@ -1,0 +1,292 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+	scroll-behavior: smooth;
+}
+
+header {
+	display: flex;
+	background-color: #2D2E34;
+	justify-content: space-between;
+	align-items: center;
+	position: fixed;
+	z-index: 999999;
+	width: 100%;
+}
+
+.logo>a>img {
+	height: 6rem;
+	width: 6rem;
+	margin-left: 4rem;
+}
+
+.navbar {
+	display: flex;
+	margin-right: 4rem;
+}
+
+.navbar>a {
+	text-decoration: none;
+	color: #9ABEC1;
+	font-size: 1.2rem;
+	font-weight: 600;
+	margin: 1rem;
+}
+
+.navbar>a:hover {
+	color: #F92A54;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	
+}
+
+.main-content {
+	padding-top: 10rem;
+	display: flex;
+	flex-direction: row;
+	background-color: #2D2E34;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.mug{
+	background-color: #2D2E34;
+}
+
+.main-title {
+	display: flex;
+	flex-direction: column;
+	color: white;
+	margin: 10rem 0 0 4rem;
+	background-color: #2D2E34;
+
+}
+
+.main-title>h1 {
+	font-size: 4rem;
+	font-weight: 700;
+	padding: 1rem;
+}
+
+.main-title>h2 {
+	font-size: 2.4rem;
+	font-weight: 400;
+	padding-left: 1rem;
+}
+
+.main-title>button {
+	font-size: 0.8rem;
+	width: 10rem;
+	height: 2rem;
+	border-radius: 0.2rem;
+	background-color: #F92A54;
+	border: none;
+	color: white;
+	margin: 2rem 0 0 1rem;
+	font-weight: 500;
+	cursor: pointer;
+}
+
+.main-title>button:hover {
+	font-weight: 700;
+	background-color: #f44e6f;
+}
+
+.scrolldown {
+	font-size: 0.6rem;
+	color: #9ABEC1;
+	width: 4rem;
+	margin: 6rem 0 2rem 1rem;
+}
+
+.main-picture>img {
+	height: 30rem;
+	width: auto;
+	background-color: #2D2E34;
+}
+
+.coffee-shop-info {
+	margin-top: 10rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.info-item {
+	display: flex;
+	flex-direction: column;
+	margin: 4rem;
+	justify-content: center;
+	align-items: center;
+	height: 10rem;
+}
+
+.info-number {
+	color: #9ABEC1;
+	font-size: 2.4rem;
+	font-weight: 800;
+	margin: 1rem;
+}
+
+.info-text {
+	color: #9ABEC1;
+	font-size: 1rem;
+	font-weight: 600;
+}
+
+.info-logo {
+	height: 4rem;
+	width: 4rem;
+}
+
+#worldwide {
+	padding: 4rem;
+	border-right: solid 1px #9ABEC1;
+	border-left: solid 1px #9ABEC1;
+}
+
+.open-hours {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin: 10rem;
+}
+
+.open-hours-text {
+	display: flex;
+	flex-direction: column;
+	margin-right: 16rem;
+}
+
+.open-hours-text>h3 {
+	font-size: 1.8rem;
+	font-weight: 600;
+	padding-left: 2rem;
+	color: #333030;
+}
+
+.open-days {
+	font-size: 1rem;
+	padding: 2rem 0 1rem 2rem;
+	font-weight: 400;
+	color: #333030;
+}
+
+.open-time {
+	font-size: 1.8rem;
+	font-weight: 400;
+	color: #9ABEC1;
+	padding-left: 2rem;
+}
+
+.open-hours-img>img {
+	height: 10rem;
+	width: auto;
+}
+
+.desserts {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.desserts>h3 {
+	font-size: 1.8rem;
+	font-weight: 600;
+	margin: 4rem 0 6rem 0;
+}
+
+.desserts-content {
+	display: flex;
+	flex-direction: row;
+	margin: 0 12rem 0 12rem;
+}
+
+.desserts-img>img {
+	height: 20rem;
+	width: auto;
+}
+
+.desserts-text {
+	display: flex;
+	flex-direction: column;
+	color: #333030;
+	margin-left: 6rem;
+	justify-content: center;
+}
+
+.desserts-text>button {
+	font-size: 0.8rem;
+	width: 6rem;
+	height: 2rem;
+	border-radius: 0.2rem;
+	background-color: #F92A54;
+	border: none;
+	color: white;
+	font-weight: 500;
+	cursor: pointer;
+	margin-top: 2rem;
+}
+
+.desserts-text>button:hover {
+	font-weight: 700;
+	background-color: #f44e6f;
+}
+
+footer {
+	background-color: #2D2E34;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 4rem;
+	padding-bottom: 2rem;
+	color: #9ABEC1;
+}
+
+.footer-content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.footer-content>img {
+	height: 6rem;
+	width: 6rem;
+}
+
+.footer-content>p {
+	margin-top: 1rem;
+	width: 20rem;
+	text-align: center;
+}
+
+.socials {
+	margin: 1rem 0 4rem 0;
+}
+
+.socials>a>img {
+	height: 1rem;
+	width: 1rem;
+}
+
+footer>p {
+	font-size: 0.8rem;
+}
+
+footer>p>a {
+	text-decoration: none;
+	color: #9ABEC1;
+}
+
+footer>p>a:hover {
+	font-size: 104%;
+	color: #d5dcdd;
+}
