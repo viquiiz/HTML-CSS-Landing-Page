@@ -13,7 +13,7 @@ header {
 	align-items: center;
 	position: fixed;
 	z-index: 999999;
-	width: 100%;
+	width: 100vw;
 }
 
 .logo>a>img {
@@ -280,4 +280,109 @@ footer>p>a {
 footer>p>a:hover {
 	font-size: 104%;
 	color: #d5dcdd;
+}
+
+@media screen and (max-width: 1230px) {
+	body {
+		max-width: 1230px;
+	}
+
+	.main-picture {
+		display: flex;
+		justify-content: center;
+	}
+
+	.main-picture>img {
+		height: 20rem;
+	}
+
+	.desserts-content {
+		margin: 1rem;
+	}
+
+	.desserts-text {
+		margin: 1rem;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	body {
+		max-width: 800px;
+	}
+
+	.main-content {
+		flex-direction: column;
+	}
+
+	.main-picture {
+		display: flex;
+		justify-content: center;
+		margin-bottom: 3rem;
+	}
+
+	.desserts-img {
+		display: flex;
+		align-items: center;
+	}
+}
+
+@media screen and (max-width: 680px) {
+	body {
+		max-width: 680px;
+	}
+
+	.logo>a>img {
+		margin: 0.2rem;
+		height: 4rem;
+		width: 4rem;
+	}
+
+	.navbar {
+		margin-right: 1rem;
+	}
+
+	.navbar>a {
+		font-size: 0.6rem;
+	}
+
+	.main-picture>img {
+		height: 10rem;
+		width: auto;
+	}
+
+	.info-item {
+		margin: 0.2rem;
+	}
+
+	.info-text {
+		text-align: center;
+	}
+
+	#worldwide {
+		padding: 2rem;
+	}
+
+	.open-hours-text {
+		margin-right: 4rem;
+	}
+
+	.desserts-content {
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.desserts>h3 {
+		text-align: center;
+	}
+
+	.desserts-text>p {
+		display: flex;
+		text-align: center;
+	}
+
+	.desserts-img>img {
+		height: 10rem;
+		width: auto;
+	}
 }
