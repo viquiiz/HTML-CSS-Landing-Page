@@ -6,6 +6,7 @@
 	<meta name="viewport" content="width=device-width">
 	<title>Coffee Shop</title>
 	<link href="style.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="aos.css">
 </head>
 
 <body>
@@ -23,29 +24,29 @@
 	</header>
 	<main>
 		<div class="main-content">
-			<div class="main-title">
+			<div class="main-title" data-aos="fade-right">
 				<h1>Step into the light</h1>
 				<h2>With our special coffee flavours</h2>
 				<button>See Nearest Location</button>
 				<span class="scrolldown">Scroll Down To Learn More</span>
 			</div>
 			<div class="main-picture">
-				<img src="assets/coffee-mug.png" alt="Coffee mug with spoon picture">
+				<img src="assets/coffee-mug.png" alt="Coffee mug with spoon picture" data-aos="fade-left">
 			</div>
 		</div>
 		<div class="coffee-shop-info">
 			<div class="info-item">
-				<img class="info-logo" src="assets/rocket.png" alt="rocket icon">
+				<img class="info-logo" src="assets/rocket.png" alt="rocket icon" data-aos="fade-down">
 				<span class="info-number">46</span>
 				<span class="info-text">Years On Market</span>
 			</div>
 			<div class="info-item" id="worldwide">
-				<img class="info-logo" src="assets/worldwide.png" alt="worldwide icon">
+				<img class="info-logo" src="assets/worldwide.png" alt="worldwide icon" data-aos="fade-down">
 				<span class="info-number">135</span>
 				<span class="info-text">Locations Worldwide</span>
 			</div>
 			<div class="info-item">
-				<img class="info-logo" src="assets/trophy.png" alt="trophy icon">
+				<img class="info-logo" src="assets/trophy.png" alt="trophy icon" data-aos="fade-down">
 				<span class="info-number">28</span>
 				<span class="info-text">Won Awards</span>
 			</div>
@@ -57,16 +58,16 @@
 				<span class="open-time">08:00 AM - 02:00 PM</span>
 			</div>
 			<div class="open-hours-img">
-				<img src="assets/coffee-mug-2.png">
+				<img src="assets/coffee-mug-2.png" data-aos="fade-left">
 			</div>
 		</div>
 		<div class="desserts">
-			<h3>Our Coffee Comes with our Signature Desserts</h3>
+			<h3 data-aos="fade-top">Our Coffee Comes with our Signature Desserts</h3>
 			<div class="desserts-content">
 				<div class="desserts-img">
-					<img src="assets/coffee-biscuits.png" alt="coffee with biscuits">
+					<img src="assets/coffee-biscuits.png" alt="coffee with biscuits" data-aos="fade-left">
 				</div>
-				<div class="desserts-text">
+				<div class="desserts-text" data-aos="fade-right">
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In venenatis, nulla eu hendrerit congue,
 						enim orci faucibus lectus, vitae laoreet purus elit condimentum ex. Aenean facilisis tellus et
 						tortor feugiat, eget eleifend neque faucibus. Sed eu sodales odio. Curabitur venenatis magna
@@ -101,6 +102,13 @@
 		<p>© <a target="_blank" href="https://www.linkedin.com/in/victoriazanella/">Victória Zanella</a>. Icons by <a
 				target="_blank" href="https://icons8.com">Icons8</a>.</p>
 	</footer>
+	<script src="aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 2000,
+      }
+      );
+    </script>
 </body>
 
 </html>
